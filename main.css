@@ -1,0 +1,171 @@
+ body {
+     font-family: 'Poppins', sans-serif;
+     background-color: #f0f2f5;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0;
+     padding: 30px;
+ }
+
+
+ .attained {
+     font-size: 1.2em;
+     font-weight: bold;
+     color: #007BFF;
+     /* A nice, visible color for the price */
+     background-color: #eaf6ff;
+     padding: 5px 10px;
+     border-radius: 5px;
+     margin-left: 20px;
+ }
+
+ .attained:hover {
+     background-color: #c8cbce;
+     cursor: pointer;
+     color: aquamarine;
+ }
+
+
+ .submit-button {
+     background-color: #00c7a5;
+     color: #fff;
+     border: none;
+     padding: 12px 30px;
+     border-radius: 50px;
+     font-size: 1rem;
+     cursor: pointer;
+     align-self: flex-start;
+     transition: background-color 0.3s ease;
+ }
+
+ .submit-button:hover {
+     background-color: #00a48b;
+ }
+
+
+ .contact-container {
+     display: flex;
+     background-color: #fff;
+     border-radius: 20px;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+     max-width: 900px;
+     width: 100%;
+     overflow: hidden;
+ }
+
+ .contact-info-panel {
+     background-color: #00c7a5;
+     color: #fff;
+     padding: 40px;
+     border-radius: 20px 0 0 20px;
+     flex: 1;
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+
+ .contact-info-panel h2 {
+     font-size: 2rem;
+     font-weight: 600;
+     margin-top: 0;
+     margin-bottom: 20px;
+ }
+
+ .contact-info-panel p {
+     font-size: 0.9rem;
+     line-height: 1.6;
+     margin-bottom: 30px;
+ }
+
+ .contact-info-panel .contact-item {
+     display: flex;
+     align-items: center;
+     margin-bottom: 25px;
+ }
+
+ .contact-info-panel .contact-item img {
+     width: 24px;
+     height: 24px;
+     margin-right: 15px;
+ }
+
+ .contact-info-panel .contact-item p {
+     margin: 0;
+     font-size: 1rem;
+     font-weight: 400;
+ }
+
+ .contact-form {
+     padding: 40px;
+     flex: 2;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .form-row {
+     display: flex;
+     gap: 20px;
+     margin-bottom: 20px;
+ }
+
+ .form-group {
+     flex: 1;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .form-group label {
+     font-size: 0.8rem;
+     color: #555;
+     margin-bottom: 5px;
+ }
+
+ .form-group input,
+ .form-group textarea {
+     border: none;
+     border-bottom: 1px solid #ccc;
+     padding: 8px 0;
+     font-size: 1rem;
+     color: #333;
+     outline: none;
+     background: transparent;
+ }
+
+ .form-group input:focus,
+ .form-group textarea:focus {
+     border-bottom-color: #00c7a5;
+ }
+
+ .form-group textarea {
+     min-height: 100px;
+     resize: vertical;
+ }
+
+ .form-group .message-label {
+     margin-top: 10px;
+ }
+
+ .form-group .message-input-container {
+     position: relative;
+ }
+
+ .form-group .message-input-container img {
+     position: absolute;
+     right: 0;
+     top: 50%;
+     transform: translateY(-50%);
+     width: 20px;
+     height: 20px;
+     cursor: pointer;
+ }
+
+ .contact-info-panel .info-details {
+     margin-bottom: 40px;
+ }
+
+ .contact-info-panel .phone-numbers p {
+     margin: 0;
+     line-height: 1.5;
+ }
